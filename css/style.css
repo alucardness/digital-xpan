@@ -39,8 +39,8 @@ html {
     height: 100vh;
     background-image: url("../img/gallery/black_sea.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
+    background-size: cover;
+    background-position: 100% 35%;
 }
 
 /* GALLERY */
@@ -115,5 +115,9 @@ html {
         display: block;
         text-align: center;
         width: 100%;
+    }
+
+    #header-background-container {
+        height: 50vh;
     }
 }
